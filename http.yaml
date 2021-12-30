@@ -16,6 +16,8 @@ spec:
       name: httpd
       labels:
         env: production
+        app: httpd
+        tier: frontend
     spec:
       containers:
         - name: httpd
